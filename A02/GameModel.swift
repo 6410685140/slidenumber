@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GameModel<CardContent: Equatable> { // Add Equatable constraint
+struct GameModel<CardContent: Equatable> {
     var cards: [Card]
     var moveCount: Int = 0
     
@@ -73,7 +73,6 @@ class NumberModel: ObservableObject {
     }
     
     func checkWin() -> Bool {
-        // Check if the current arrangement of cards is a winning arrangement
         let currentArrangement = model.cards.map { $0.content }
         let winningArrangement = NumberModel.Number1_16
         return currentArrangement == winningArrangement
