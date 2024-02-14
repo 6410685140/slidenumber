@@ -59,7 +59,6 @@ struct ContentView: View {
 struct CardView: View {
     var card: GameModel<String>.Card
     var onSlideGesture: () -> Void
-    
     var body: some View {
         RoundedRectangle(cornerRadius: 6)
             .stroke(Color.black, lineWidth: 2)

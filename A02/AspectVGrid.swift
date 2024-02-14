@@ -10,7 +10,7 @@ import SwiftUI
 struct AspectVGrid<Item: Identifiable, ItemView: View>: View {
     var items: [Item]
     var aspectRatio = 1 as CGFloat
-    var spacing: CGFloat = 0 // Add spacing between items
+    var spacing: CGFloat = 0
     var content: (Item) -> ItemView
     
     var body: some View {
@@ -20,7 +20,7 @@ struct AspectVGrid<Item: Identifiable, ItemView: View>: View {
                 size: geometry.size,
                 atAspectRatio: aspectRatio
             )
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: gridItemSize), spacing: spacing)], spacing: spacing) { // Apply spacing
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: gridItemSize), spacing: spacing)], spacing: spacing) { 
                 ForEach(items) { item in
                     content(item)
                         .aspectRatio(aspectRatio, contentMode: .fit)
