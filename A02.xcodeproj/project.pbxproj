@@ -14,6 +14,8 @@
 		31BEF4822B7C6EB000486299 /* A02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BEF4812B7C6EB000486299 /* A02Tests.swift */; };
 		31BEF48C2B7C6EB000486299 /* A02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BEF48B2B7C6EB000486299 /* A02UITests.swift */; };
 		31BEF48E2B7C6EB000486299 /* A02UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BEF48D2B7C6EB000486299 /* A02UITestsLaunchTests.swift */; };
+		31BEF49B2B7C6FC400486299 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BEF49A2B7C6FC400486299 /* GameModel.swift */; };
+		31BEF49D2B7C718A00486299 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BEF49C2B7C718A00486299 /* AspectVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		31BEF4872B7C6EB000486299 /* A02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BEF48B2B7C6EB000486299 /* A02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A02UITests.swift; sourceTree = "<group>"; };
 		31BEF48D2B7C6EB000486299 /* A02UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A02UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31BEF49A2B7C6FC400486299 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		31BEF49C2B7C718A00486299 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				31BEF4702B7C6E9800486299 /* A02App.swift */,
 				31BEF4722B7C6E9800486299 /* ContentView.swift */,
+				31BEF49C2B7C718A00486299 /* AspectVGrid.swift */,
+				31BEF49A2B7C6FC400486299 /* GameModel.swift */,
 				31BEF4742B7C6EAF00486299 /* Assets.xcassets */,
 				31BEF4762B7C6EAF00486299 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BEF49D2B7C718A00486299 /* AspectVGrid.swift in Sources */,
 				31BEF4732B7C6E9800486299 /* ContentView.swift in Sources */,
+				31BEF49B2B7C6FC400486299 /* GameModel.swift in Sources */,
 				31BEF4712B7C6E9800486299 /* A02App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
